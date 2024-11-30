@@ -1,0 +1,33 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container to center the content */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Styling the Google Pay button container */
+#google-pay-button {
+    width: 100%;
+    margin-top: 20px;
+}
