@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Payment Page</title>
+  <link rel="icon" href="../Images/apple-logo-transparent.png">
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Apple Payment</h1>
+    </header>
+    
+    <main class="payment-form">
+      <h2>Complete your payment</h2>
+      
+      <form action="/submit-payment" method="POST">
+        <div class="input-group">
+          <label for="card-name">Cardholder's Name</label>
+          <input type="text" id="card-name" name="card-name" required placeholder="Name">
+        </div>
+
+        <div class="input-group">
+          <label for="card-number">Card Number</label>
+          <input type="text" id="card-number" name="card-number" required placeholder="1234 5678 9012 3456">
+        </div>
+
+        <div class="input-group">
+          <label for="expiry-date">Expiry Date</label>
+          <input type="text" id="expiry-date" name="expiry-date" required placeholder="MM/YY">
+        </div>
+
+        <div class="input-group">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" name="cvv" required placeholder="123">
+        </div>
+
+        <div class="input-group">
+          <label for="amount">Amount</label>
+          <input type="text" id="amount" name="amount" value="$" >
+        </div>
+
+        <button type="submit" class="submit-btn"><a href="http://127.0.0.1:5500/payment/gpay.html">GPay Now</a></button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 Apple Inc. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone</title>
+    <link rel="stylesheet" href="../css/iphone xr.css">
+    <link rel="icon" href="../Images/apple-logo-transparent.png">
+</head>
+<body>
+    <header>
+        
+            <nav class="theo">APPLE STORE</nav>
+        <!-- <div class="Home">
+            <ul>
+                <li><a id="add" href=""><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a id="add" href=""><i class="fa-solid fa-circle-info"></i>About</a></li>
+                <li><a id="add" href=""><i class="fa-solid fa-user"></i>Contact</a></li>
+                <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+            </div> -->
+    </header>
+    <div class="container">
+        <div class="one">
+        <img src="../Images/Iphone 12 pro max.webp" alt="" height="300px" width="">
+    </div>
+    <div class="two">
+        <p>Iphone 12 Pro <br>128 GB ROM
+            15.49 cm (6.1 inch) Super Retina XDR Display <br>
+            12MP + 12MP + 12MP | 12MP Front Camera <br>
+            A14 Bionic Chip Processor <br>
+            ₹1,09,000
+           </p>
+    </div>
+    </div>
+    <nav>
+<p id="login">LOGIN OR SIGNUP</p>
+    </nav>
+    <div class="login-container">
+        <form id="login-form">
+    <input type="text" id="username" class="input-field" placeholder="Enter Username" required>
+            <input type="password" id="password" class="input-field" placeholder="Enter Password" required>
+            <p class="login1">Bycontinuing, you agree to Theo's Terms of Use and Privacy Policy</p>
+            <button type="submit" class="submit-button"><a href="http://127.0.0.1:5500/html/login.html" target="_blank">Login</a></button>
+            <div id="error-message" class="error-message">
+            </div>
+        </form>
+    </div>
+    
+        <nav>
+        <p id="login">DELIVERY ADDRESS</p>
+            </nav>
+            <nav>
+                <p id="login">ORDER SUMMARY</p>
+                    </nav>
+                    <nav>
+                        <p id="login">PAYMENT OPTIONS</p>
+                            </nav>
+
+                            <script>
+                                 // Get the form and error message container
+        const form = document.getElementById('login-form');
+        const errorMessage = document.getElementById('error-message');
+
+        // Add event listener for form submission
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();  // Prevent form from refreshing the page
+
+            // Get the values from input fields
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Basic validation
+            if (username === '' || password === '') {
+                errorMessage.textContent = 'Please enter both username and password.';
+            } else if (username === 'admin' && password === 'password123') {
+                // Simulate successful login
+                errorMessage.textContent = '';
+                alert('Login Successful!');
+            } else {
+                // Invalid credentials
+                errorMessage.textContent = 'Invalid username or password. Please try again.';
+            }
+        });
+                            </script>
+            
+</body>
+</html>

@@ -1,0 +1,172 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f7;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content .text {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-content .image img {
+    width: 500px;
+    object-fit: cover;
+}
+
+/* Features Section */
+.features {
+    background-color: #f5f5f7;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.features ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+}
+
+.features ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Colors Section */
+.colors {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.colors h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.color-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.color-option {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.color-option:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+color: #000;
+}
+
+video{
+    width: 100%;
+   
+}
+#mac{
+    color: #f5f5f7;
+}
+.logo{
+    margin: 40px;
+}
